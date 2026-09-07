@@ -1,17 +1,45 @@
 aid: additiveintelligencea7d2
-name: Additiveintelligencea7d2
-description: 'Additiveintelligencea7d2 is a company surfaced via the API Evangelist harvest backlog (source:
-  secondary-market) and added to the network as a stub for full-pipeline profiling.'
+name: Additive Intelligence
+description: >-
+  Additive Intelligence was a Taipei, Taiwan startup applying machine learning to metal
+  additive manufacturing. Its focus was the deformation and shrinkage that occurs when
+  metal 3D printed parts are sintered — the expensive trial-and-error step that keeps
+  metal AM from being fast, scalable and cost-competitive — and it paired hardware with
+  software, holding provisional patents on a machine learning method, a proprietary
+  infill topology, and a method for varying the density of infilled sections. The company
+  was selected by Taiwan Tech Arena as one of 100 startups showcased at CES 2021, and its
+  LinkedIn page carries the slogan "Additive manufacturing, exponential progress." No
+  first-party surface survives: the website the company itself declares on LinkedIn,
+  www.additiveintelligence.com, holds an active registration on Google Cloud DNS but
+  publishes no A record, so no host — apex, www, api or docs — can be connected to at all.
+  There is no developer portal, GitHub organization, published package, or API of any kind.
 url: https://raw.githubusercontent.com/api-evangelist/additiveintelligencea7d2/refs/heads/main/apis.yml
 x-type: company
 x-source: harvest:secondary-market
 x-tier: stub
 x-tier-reason: harvest
+x-status: defunct
+x-status-detail: >-
+  No first-party host resolves for additiveintelligence.com (registered, Google Cloud DNS,
+  no A record) and the Wayback Machine holds no capture of the company's own site; the only
+  live surfaces are third-party profiles (LinkedIn, Taiwan Tech Arena, Crunchbase, PitchBook).
+  The EquityZen secondary-market listing this record was harvested from,
+  https://equityzen.com/company/additiveintelligencea7d2/, now renders a different company
+  entirely (APrevent, a voice-implant medical device maker), so that URL is no longer usable
+  as a Website pointer for this company.
 specificationVersion: '0.20'
 created: '2026-09-07'
 modified: '2026-09-07'
 tags:
 - Company
+- Additive Manufacturing
+- 3D Printing
+- Metal 3D Printing
+- Machine Learning
+- Artificial Intelligence
+- Manufacturing
+- Sintering
+- Taiwan
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -19,5 +47,41 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
-- type: Website
-  url: https://equityzen.com/company/additiveintelligencea7d2
+- type: LinkedIn
+  url: https://www.linkedin.com/company/additiveintelligence/
+x-coverage:
+  state: none
+  reason: defunct
+  detail: >-
+    Additive Intelligence's own declared website, www.additiveintelligence.com (the URL on its
+    LinkedIn company page), is registered and delegated to Google Cloud DNS but publishes no A
+    record, so the apex, www, api and docs hosts all fail to connect (curl 000) and STEP 0b
+    contract discovery — /openapi.json, /swagger.json, /docs, /llms.txt, /.well-known/agent-card.json,
+    /.well-known/security.txt — had no reachable host to run against; there is no GitHub
+    organization, no published npm/PyPI package, and the EquityZen listing this record was
+    harvested from now renders a different company (APrevent).
+  evidence:
+  - url: https://additiveintelligence.com/openapi.json
+    status: 0
+  - url: https://additiveintelligence.com/.well-known/agent-card.json
+    status: 0
+  - url: https://api.additiveintelligence.com/openapi.json
+    status: 0
+  - url: https://docs.additiveintelligence.com/
+    status: 0
+  - url: https://api.github.com/orgs/additiveintelligence
+    status: 404
+  - url: https://pypi.org/pypi/additive-intelligence/json
+    status: 404
+  - url: https://www.linkedin.com/company/additiveintelligence/
+    status: 200
+  - url: https://www.taiwanarena.tech/startups-detail/AdditiveIntelligence/
+    status: 200
+  - url: https://equityzen.com/company/additiveintelligencea7d2/
+    status: 200
+  checked: '2026-09-07'
+x-enrichment:
+  date: '2026-09-07'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v3

@@ -64,5 +64,29 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Additiveintelligencea7d2 is a company surfaced via the API Evangelist harvest backlog (source: secondary-market) and added to the network as a stub for full-pipeline profiling.
-- https://equityzen.com/company/additiveintelligencea7d2
+Additive Intelligence was a Taipei, Taiwan startup applying machine learning to metal additive
+manufacturing — specifically the deformation and shrinkage that occurs when metal 3D printed parts
+are sintered, the trial-and-error step that makes metal AM slow and expensive. It paired hardware
+with software, held provisional patents on a machine learning method, a proprietary infill topology
+and a method for varying the density of infilled sections, and was selected by Taiwan Tech Arena as
+one of 100 startups showcased at CES 2021.
+
+**Status: defunct — no first-party surface remains.** The website the company declares on its own
+LinkedIn page, `www.additiveintelligence.com`, holds an active registration on Google Cloud DNS but
+publishes no A record, so the apex, `www`, `api` and `docs` hosts cannot be connected to at all.
+Contract discovery (`/openapi.json`, `/swagger.json`, `/docs`, `/llms.txt`,
+`/.well-known/agent-card.json`, `/.well-known/security.txt`) had no reachable host to run against,
+there is no GitHub organization (`api.github.com/orgs/additiveintelligence` → 404) and no published
+npm or PyPI package. This profile therefore carries no API artifacts, and that is a measurement, not
+an omission.
+
+**A note on the source URL.** This record was harvested from the EquityZen secondary-market listing
+`https://equityzen.com/company/additiveintelligencea7d2/`. That URL still returns HTTP 200, but it
+now renders a different company entirely — APrevent, a voice-implant medical device maker — so it
+has been removed as a Website pointer rather than left in place as a false claim.
+
+Surfaces that are still live, all of them third-party:
+
+- LinkedIn — https://www.linkedin.com/company/additiveintelligence/ (200)
+- Taiwan Tech Arena — https://www.taiwanarena.tech/startups-detail/AdditiveIntelligence/ (200)
+- CES 2021 press release — https://www.prnewswire.com/news-releases/ces-2021-additive-intelligence-drastically-reduces-the-cost-of-metal-3d-printing-with-ai-301206209.html
