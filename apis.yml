@@ -1,36 +1,42 @@
 aid: additiveintelligencea7d2
 name: Additive Intelligence
-description: >-
-  Additive Intelligence was a Taipei, Taiwan startup applying machine learning to metal
-  additive manufacturing. Its focus was the deformation and shrinkage that occurs when
-  metal 3D printed parts are sintered — the expensive trial-and-error step that keeps
-  metal AM from being fast, scalable and cost-competitive — and it paired hardware with
-  software, holding provisional patents on a machine learning method, a proprietary
-  infill topology, and a method for varying the density of infilled sections. The company
-  was selected by Taiwan Tech Arena as one of 100 startups showcased at CES 2021, and its
-  LinkedIn page carries the slogan "Additive manufacturing, exponential progress." No
-  first-party surface survives: the website the company itself declares on LinkedIn,
-  www.additiveintelligence.com, holds an active registration on Google Cloud DNS but
-  publishes no A record, so no host — apex, www, api or docs — can be connected to at all.
-  There is no developer portal, GitHub organization, published package, or API of any kind.
+description: 'Additive Intelligence was a Taipei, Taiwan startup applying machine learning to metal additive
+  manufacturing. Its focus was the deformation and shrinkage that occurs when metal 3D printed parts are
+  sintered — the expensive trial-and-error step that keeps metal AM from being fast, scalable and cost-competitive
+  — and it paired hardware with software, holding provisional patents on a machine learning method, a
+  proprietary infill topology, and a method for varying the density of infilled sections. The company
+  was selected by Taiwan Tech Arena as one of 100 startups showcased at CES 2021, and its LinkedIn page
+  carries the slogan "Additive manufacturing, exponential progress." No first-party surface survives:
+  the website the company itself declares on LinkedIn, www.additiveintelligence.com, holds an active registration
+  on Google Cloud DNS but publishes no A record, so no host — apex, www, api or docs — can be connected
+  to at all. There is no developer portal, GitHub organization, published package, or API of any kind.'
 url: https://raw.githubusercontent.com/api-evangelist/additiveintelligencea7d2/refs/heads/main/apis.yml
 x-type: company
 x-source: harvest:secondary-market
 x-tier: stub
 x-tier-reason: harvest
 x-status: defunct
-x-status-detail: >-
-  No first-party host resolves for additiveintelligence.com (registered, Google Cloud DNS,
-  no A record) and the Wayback Machine holds no capture of the company's own site; the only
-  live surfaces are third-party profiles (LinkedIn, Taiwan Tech Arena, Crunchbase, PitchBook).
-  The EquityZen secondary-market listing this record was harvested from,
-  https://equityzen.com/company/additiveintelligencea7d2/, now renders a different company
-  entirely (APrevent, a voice-implant medical device maker), so that URL is no longer usable
-  as a Website pointer for this company.
+x-status-detail: No first-party host resolves for additiveintelligence.com (registered, Google Cloud DNS,
+  no A record) and the Wayback Machine holds no capture of the company's own site; the only live surfaces
+  are third-party profiles (LinkedIn, Taiwan Tech Arena, Crunchbase, PitchBook). The EquityZen secondary-market
+  listing this record was harvested from, https://equityzen.com/company/additiveintelligencea7d2/, now
+  renders a different company entirely (APrevent, a voice-implant medical device maker), so that URL is
+  no longer usable as a Website pointer for this company.
 specificationVersion: '0.20'
 created: '2026-09-07'
-modified: '2026-09-07'
+modified: '2026-09-15'
 tags:
+- Company
+- Additive Manufacturing
+- 3D Printing
+- Metal 3D Printing
+- Machine-Learning
+- Artificial Intelligence
+- Manufacturing
+- Sintering
+- Taiwan
+- Defunct
+tags_raw:
 - Company
 - Additive Manufacturing
 - 3D Printing
@@ -52,14 +58,12 @@ common:
 x-coverage:
   state: none
   reason: defunct
-  detail: >-
-    Additive Intelligence's own declared website, www.additiveintelligence.com (the URL on its
-    LinkedIn company page), is registered and delegated to Google Cloud DNS but publishes no A
-    record, so the apex, www, api and docs hosts all fail to connect (curl 000) and STEP 0b
-    contract discovery — /openapi.json, /swagger.json, /docs, /llms.txt, /.well-known/agent-card.json,
-    /.well-known/security.txt — had no reachable host to run against; there is no GitHub
-    organization, no published npm/PyPI package, and the EquityZen listing this record was
-    harvested from now renders a different company (APrevent).
+  detail: Additive Intelligence's own declared website, www.additiveintelligence.com (the URL on its LinkedIn
+    company page), is registered and delegated to Google Cloud DNS but publishes no A record, so the apex,
+    www, api and docs hosts all fail to connect (curl 000) and STEP 0b contract discovery — /openapi.json,
+    /swagger.json, /docs, /llms.txt, /.well-known/agent-card.json, /.well-known/security.txt — had no
+    reachable host to run against; there is no GitHub organization, no published npm/PyPI package, and
+    the EquityZen listing this record was harvested from now renders a different company (APrevent).
   evidence:
   - url: https://additiveintelligence.com/openapi.json
     status: 0
