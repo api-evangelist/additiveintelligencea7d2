@@ -24,7 +24,7 @@ x-status-detail: No first-party host resolves for additiveintelligence.com (regi
   no longer usable as a Website pointer for this company.
 specificationVersion: '0.20'
 created: '2026-09-07'
-modified: '2026-09-15'
+modified: '2026-09-16'
 tags:
 - Company
 - Additive Manufacturing
@@ -35,6 +35,7 @@ tags:
 - Manufacturing
 - Sintering
 - Taiwan
+- Defunct
 tags_raw:
 - Company
 - Additive Manufacturing
@@ -45,6 +46,7 @@ tags_raw:
 - Manufacturing
 - Sintering
 - Taiwan
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
