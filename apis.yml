@@ -30,7 +30,7 @@ tags:
 - Additive Manufacturing
 - 3D Printing
 - Metal 3D Printing
-- Machine-Learning
+- Machine Learning
 - Artificial Intelligence
 - Manufacturing
 - Sintering
@@ -47,6 +47,7 @@ tags_raw:
 - Sintering
 - Taiwan
 - Defunct
+- Machine-Learning
 apis: []
 maintainers:
 - FN: Kin Lane
