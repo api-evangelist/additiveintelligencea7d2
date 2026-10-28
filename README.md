@@ -1,4 +1,4 @@
-# Additiveintelligencea7d2
+# Additive Intelligence
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,29 +64,28 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Additive Intelligence was a Taipei, Taiwan startup applying machine learning to metal additive
-manufacturing — specifically the deformation and shrinkage that occurs when metal 3D printed parts
-are sintered, the trial-and-error step that makes metal AM slow and expensive. It paired hardware
-with software, held provisional patents on a machine learning method, a proprietary infill topology
-and a method for varying the density of infilled sections, and was selected by Taiwan Tech Arena as
-one of 100 startups showcased at CES 2021.
+> **No longer operating.** This company or product has shut down, been discontinued, or been deprecated. This profile is kept as a historical record and is not maintained or rated.
 
-**Status: defunct — no first-party surface remains.** The website the company declares on its own
-LinkedIn page, `www.additiveintelligence.com`, holds an active registration on Google Cloud DNS but
-publishes no A record, so the apex, `www`, `api` and `docs` hosts cannot be connected to at all.
-Contract discovery (`/openapi.json`, `/swagger.json`, `/docs`, `/llms.txt`,
-`/.well-known/agent-card.json`, `/.well-known/security.txt`) had no reachable host to run against,
-there is no GitHub organization (`api.github.com/orgs/additiveintelligence` → 404) and no published
-npm or PyPI package. This profile therefore carries no API artifacts, and that is a measurement, not
-an omission.
+Additive Intelligence was a Taipei, Taiwan startup applying machine learning to metal additive manufacturing. Its focus was the deformation and shrinkage that occurs when metal 3D printed parts are sintered — the expensive trial-and-error step that keeps metal AM from being fast, scalable and cost-competitive — and it paired hardware with software, holding provisional patents on a machine learning method, a proprietary infill topology, and a method for varying the density of infilled sections. The company was selected by Taiwan Tech Arena as one of 100 startups showcased at CES 2021, and its LinkedIn page carries the slogan "Additive manufacturing, exponential progress." No first-party surface survives: the website the company itself declares on LinkedIn, www.additiveintelligence.com, holds an active registration on Google Cloud DNS but publishes no A record, so no host — apex, www, api or docs — can be connected to at all. There is no developer portal, GitHub organization, published package, or API of any kind.
 
-**A note on the source URL.** This record was harvested from the EquityZen secondary-market listing
-`https://equityzen.com/company/additiveintelligencea7d2/`. That URL still returns HTTP 200, but it
-now renders a different company entirely — APrevent, a voice-implant medical device maker — so it
-has been removed as a Website pointer rather than left in place as a false claim.
+**Areas:** Company · 3D Printing · Metal 3D Printing · Machine Learning · Artificial Intelligence · Manufacturing · Sintering · Taiwan · Defunct
 
-Surfaces that are still live, all of them third-party:
+## Additive Intelligence on APIs.io (historical record)
 
-- LinkedIn — https://www.linkedin.com/company/additiveintelligence/ (200)
-- Taiwan Tech Arena — https://www.taiwanarena.tech/startups-detail/AdditiveIntelligence/ (200)
-- CES 2021 press release — https://www.prnewswire.com/news-releases/ces-2021-additive-intelligence-drastically-reduces-the-cost-of-metal-3d-printing-with-ai-301206209.html
+Everything profiled for Additive Intelligence is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/additiveintelligencea7d2/](https://apis.io/providers/additiveintelligencea7d2/)** — or go straight to one of the APIs or properties below.
+
+## API Evangelist rating
+
+**Not rated** — this company is recorded as no longer operating, so no score is published. If it is in fact operating, say so on this repository and it will be re-profiled.
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Additive Intelligence: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/additiveintelligencea7d2/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
